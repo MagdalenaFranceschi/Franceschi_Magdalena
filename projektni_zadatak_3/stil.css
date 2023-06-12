@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+  font-family: 'mojfont';
+  src: url('vjezbe/mojfont.ttf') format('truetype');
+}
+h1 {
+  font-family: 'mojfont';
+} 
+p {
+	color: black;
+	font-family: "Constantia", "Lucida Bright", "DejaVu Serif", "Georgia serif";
+	font-size: 16px;
+	line-height: 18px;
+	width: 600px;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px;
+}
+html {background: url("slike/pozadina.jpg") no-repeat center fixed;
+	background-size: cover;
+} 
+a:link {
+	color:black;
+	background-color:#becde6;
+	padding:5px;
+	line-height:40px;
+	margin:6px
+}
+a:hover {
+	background-color:darkgray;
+}
+img {
+	height:315px;
+}
